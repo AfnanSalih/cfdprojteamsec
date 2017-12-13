@@ -1,0 +1,154 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #262626;  
+}
+
+
+header{
+    background: lightpink;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+.home{
+    text-align: center;
+    background: lightgreen;
+    margin-bottom: 0;
+}
+
+
+
+section
+{
+    background: #fff;
+    margin: 0;
+   
+}
+
+.team{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.imgbox
+{
+    position: relative;
+    margin: 40px auto;
+    border-radius: 4px;
+    overflow:hidden;
+    max-width:300px;
+   
+}
+.imgbox h3
+{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top:-24px;
+    transform:translateY(-50%);
+    text-align: center;
+    width:100%;
+    font-weight:bold;
+    color:#fff;
+    text-shadow: 2px 2px 8px rgb(58, 56, 56);
+    transition: .5s;
+    
+
+}
+.imgbox:hover h3
+{
+    top:40%;
+    transform:translateY(-50%);
+    text-align: center;
+}
+.imgbox ul
+{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width:100%;
+    display: flex;
+    background: rgba(0, 0, 0, .2);
+    transform: translateY(50px);
+    transition: .5s;
+}
+.imgbox:hover ul{
+transform: translateY(-60px);
+}
+.imgbox ul li
+{
+    list-style: none;
+    width:20%;
+    box-sizing: border-box;
+    
+}
+
+.imgbox ul li a
+{
+    color: #fff;
+    font-size:10px;
+    margin: 10px;
+    display:inline-block;
+}
+.imgbox ul li:hover:nth-child(1)
+{
+    background:#3b5999 ;
+}
+
+.imgbox ul li:hover:nth-child(2)
+{
+    background:#55acee ;
+}
+.imgbox ul li:hover:nth-child(3)
+{
+    background:#dd4b39;
+}
+.imgbox ul li:hover:nth-child(4)
+{
+    background:#0077B5;
+}
+
+.imgbox ul li:hover:nth-child(5)
+{
+    background:#bd081c;
+}
+
+
+
+ 
+
+
+/* statr copyright */
+.copyright{
+    border-top:1px solid #c0c0c0;
+    padding:20px;
+    background:black;
+}
+.copyright ul{
+    margin:0;
+}
+.copyright ul li{
+display:inline-block;
+}
+.copyright ul li a{
+    color:#777;
+    display:inline-block;
+    margin-left: 20px;
+    font-size:18px; 
+    color:white
+    }
+    p{
+        color:white;
+    } 
+/* end copyright */
+
+
+
+
+
+
